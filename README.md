@@ -14,7 +14,7 @@ Arduino HUD goggles.
 * NRF24L01+ wireless transciever
 * MAX7456 OSD generator
 * 2x DC-DC buck converter
-* 14500 Lithium-ion battery
+* 2x 14500 Lithium-ion batteries
 
 ## Schematic:
 ![alt text](https://moreillon.duckdns.org/projects/images/arg_schem.png)
