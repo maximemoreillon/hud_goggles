@@ -20,3 +20,6 @@ This headset enables the overlay of information on top of its user's field of vi
 ## Schematic:
 ![alt text](https://moreillon.duckdns.org/projects/images/arg_schem.png)
 
+Note: Some resistors are missing around the MAX7456
+Note 2: Some resistor values are likely to be erroneous
+
