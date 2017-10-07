@@ -1,47 +1,3 @@
-
-/*
-Augmented Reality Glasses v6
-
-Changelog:
-
-v12
--Changed external input to NHTSC
-
-v11
--Added different payload size
--Changed Motion encoding
--Changed Tracker encoding
--if ammo!lastammo
-
-v10
-- added changeManagement();
-- Different rAddr depending on the task
-- Added motion detector mode
-- Changed displayBattery();
-- Made different RX functions
-
-v9
-- Changed sentry transmission format
-- Changed Tracker reception format
-- Added NTSC/PAL detection for AUX
-- Corrected battery level measurement
-
-v8
-- Rewrote OSD functions
-v7
-- separated sensor reading from the rest
-- removed Vsync connection (D2, INT0)
-v6
-- updated displayPitch and displayHeading
-- added static values
-- no target indication
-- target distance
-V5
-- Added specific timings for display and communication
-- receives and displays heading and distance to target
-- OSD intro
-*/
-
 // Libraries
 #include <Wire.h>
 #include "I2Cdev.h"
@@ -201,9 +157,7 @@ void loop()
   buttonRead(); // dispMode selector
   
   changeManagement(); // what happens when input/mode changes
-  
   sensorManagement();
-  
   displayManagement();
   wirelessManagement();
 }
