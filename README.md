@@ -5,7 +5,14 @@ This headset enables the overlay of information on top of its user's field of vi
 ## Video:
 [![Alt text](https://img.youtube.com/vi/jYXiF9gdmnc/0.jpg)](https://www.youtube.com/watch?v=jYXiF9gdmnc)
 
-## Parts list
+## Requirements
+
+* [MPU-6050 Library](https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050)
+* HMC5883L library
+* [Mirf NRF24L01 library](https://github.com/aaronds/arduino-nrf24l01/tree/master/Mirf)
+
+## Hardware
+### Parts list
 
 * Video glasses
 * Mini camera with night vision capabilities
@@ -17,6 +24,9 @@ This headset enables the overlay of information on top of its user's field of vi
 * 2x DC-DC buck converter
 * 2x 14500 Lithium-ion batteries
 
-## Schematic:
+### Schematic:
 ![alt text](https://moreillon.duckdns.org/projects/images/arg_schem.png)
+
+Note: Some resistors are missing around the MAX7456
+Note 2: Some resistor values are likely to be erroneous
 
