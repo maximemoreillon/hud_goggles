@@ -16,7 +16,7 @@ This headset enables the overlay of information on top of its user's field of vi
 
 * Video glasses
 * Mini camera with night vision capabilities
-* Arduino pro mini 5V (?)
+* Arduino pro mini 5V
 * MPU-6050 Accelerometer and gryo combo
 * HMC5883L Magnetometer
 * NRF24L01+ wireless transciever
