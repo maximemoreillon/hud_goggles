@@ -23,7 +23,3 @@ This headset enables the overlay of information on top of its user's field of vi
 * MAX7456 OSD generator
 * 2x DC-DC buck converter
 * 2x 14500 Lithium-ion batteries
-
-### Schematic:
-![alt text](http://maximemoreillon.com/images/projects/hud/arg_schem.png)
-
